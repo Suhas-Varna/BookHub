@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import axios from '../../axiosConfig';
 import './SignupPage.css';
 
@@ -21,7 +21,6 @@ const SignupPage = () => {
         password
       });
 
-      // If backend returns success (201)
       if (response.status === 201) {
         navigate('/login');
       }
@@ -42,35 +41,43 @@ const SignupPage = () => {
   return (
     <div className="signup-container">
 
-      <h2>Sign Up</h2>
+      <div className="signup-card">
 
-      <form onSubmit={handleSignup}>
+        <h2>Create Account</h2>
 
-        <div>
+        <form onSubmit={handleSignup}>
+
           <label>Email</label>
           <input
             type="email"
+            placeholder="Enter Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-        </div>
 
-        <div>
           <label>Password</label>
           <input
             type="password"
+            placeholder="Enter Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-        </div>
 
-        {error && <p style={{ color: 'red' }}>{error}</p>}
+          {error && <p className="error-text">{error}</p>}
 
-        <button type="submit">Sign Up</button>
+          <button type="submit">
+            Sign Up
+          </button>
 
-      </form>
+        </form>
+
+        <p className="login-link">
+          Already have an account? <Link to="/login">Login</Link>
+        </p>
+
+      </div>
 
     </div>
   );

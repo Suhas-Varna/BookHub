@@ -1,3 +1,7 @@
+/* ============================= */
+/* PAGE CONTAINER */
+/* ============================= */
+
 .book-details-container {
   width: 100%;
   max-width: 1200px;
@@ -6,13 +10,18 @@
   background-color: #fff;
 }
 
+
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+
 .hero-section {
   text-align: center;
   background-color: #ffebcc;
   padding: 40px;
   margin-bottom: 40px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .hero-section h1 {
@@ -26,6 +35,11 @@
   margin: 20px 0;
 }
 
+
+/* ============================= */
+/* REVIEW FORM */
+/* ============================= */
+
 .review-form {
   display: flex;
   flex-direction: column;
@@ -34,7 +48,7 @@
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .review-form .rating-container,
@@ -53,33 +67,38 @@
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  outline: none;
 }
 
 .comment-container textarea {
   width: 100%;
   padding: 12px;
-  font-size: 1rem;
   border-radius: 6px;
   border: 1px solid #ddd;
-  resize: vertical;
   min-height: 100px;
 }
 
+
+/* ============================= */
+/* SUBMIT REVIEW BUTTON */
+/* ============================= */
+
 .submit-review-btn {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 12px 20px;
   background-color: #d44b15;
   color: white;
-  border: none;
   border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
 .submit-review-btn:hover {
   background-color: #bf3d0f;
 }
+
+
+/* ============================= */
+/* REVIEWS */
+/* ============================= */
 
 .reviews-section {
   margin-top: 40px;
@@ -91,13 +110,10 @@
   gap: 20px;
 }
 
-.review-card {
-  background-color: #f3f3f3;
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
+
+/* ============================= */
+/* REVIEW CARD */
+/* ============================= */
 
 .review-card p {
   margin: 0;
@@ -112,6 +128,11 @@
   margin-top: 10px;
 }
 
+
+/* ============================= */
+/* RECOMMENDED BOOKS */
+/* ============================= */
+
 .recommended-books {
   display: flex;
   flex-wrap: wrap;
@@ -123,14 +144,18 @@
   text-align: center;
   width: 200px;
   padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .recommended-book img {
   width: 100%;
-  height: auto;
   border-radius: 8px;
 }
+
+
+/* ============================= */
+/* ERROR */
+/* ============================= */
 
 .error-message {
   color: red;
