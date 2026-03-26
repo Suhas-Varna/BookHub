@@ -439,4 +439,13 @@ BookHub/
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn" />
   </a>
 </p>
+<h3> Sumit Rodagai </h3>
+<p align="left">
+  <a href="" style="text-decoration: none;" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github" alt="GitHub" />
+  </a>
+  <a href="" style="text-decoration: none;" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn" />
+  </a>
+</p>
 </section>
