@@ -1,14 +1,14 @@
-#  Book Review System - Comprehensive Book Management and Review Platform
+#  BookHub - Comprehensive Book Management and Review Platform
 
-Book Review System is a full-stack web application built with React and Node.js that allows users to explore books, read reviews, and share their own opinions. It features user authentication, book search and browsing, detailed book information, review submission, and personalized recommendations based on book categories. The application provides a seamless experience for book enthusiasts to discover new reads and engage with a community of readers.
+BookHub is a Book Review System which is a full-stack web application built with React and Node.js that allows users to explore books, read reviews, and share their own opinions. It features user authentication, book search and browsing, detailed book information, review submission, and personalized recommendations based on book categories. The application provides a seamless experience for book enthusiasts to discover new reads and engage with a community of readers.
 
 <h2>Table of Contents</h2>
 <ul>
   <li> <a href = "#About"> About </a></li>
   <ul>
-   <li><a href="#wa"> What is Book Review System? </a></li>
+   <li><a href="#wa"> What is BookHub? </a></li>
    <li><a href="#features"> Features </a></li>
-   <li><a href="#why"> Why Book Review System? </a></li>
+   <li><a href="#why"> Why BookHub? </a></li>
   </ul>
   <li> <a href = "#getting_started"> Getting Started </a></li>
   <ul>
@@ -26,8 +26,8 @@ Book Review System is a full-stack web application built with React and Node.js 
 
 <section id = "About">
   <h2> About </h2>
-  <h3 id = "wa"> What is Book Review System? </h3>
-    Book Review System is a comprehensive book management and review platform designed to connect readers with their favorite books. Built with React for the frontend and Node.js for the backend, it provides a complete ecosystem for browsing books, reading reviews, and sharing personal opinions. The application serves book enthusiasts by offering detailed book information, user authentication, search functionality, and personalized recommendations. Book Review System transforms the way readers discover and engage with literature through features like category-based recommendations, user reviews, and a responsive design optimized for both desktop and mobile devices.
+  <h3 id = "wa"> What is BookHub? </h3>
+    BookHub is a comprehensive book management and review platform designed to connect readers with their favorite books. Built with React for the frontend and Node.js for the backend, it provides a complete ecosystem for browsing books, reading reviews, and sharing personal opinions. The application serves book enthusiasts by offering detailed book information, user authentication, search functionality, and personalized recommendations. Book Review System transforms the way readers discover and engage with literature through features like category-based recommendations, user reviews, and a responsive design optimized for both desktop and mobile devices.
 
   <h3 id="features">Features</h3>
 <ul>
@@ -79,7 +79,7 @@ Book Review System is a full-stack web application built with React and Node.js 
         </ul>
     </li>
 </ul>
-<h3 id="why">Why Book Review System?</h3>
+<h3 id="why">Why BookHub?</h3>
 <ul>
     <li><strong>Community-Driven Discovery</strong>: Connect with fellow readers through shared reviews and recommendations, building a vibrant community around literature.</li>
     <li><strong>Personalized Experience</strong>: Get tailored book suggestions based on your reading preferences and interests.</li>
@@ -184,7 +184,7 @@ PORT=5001</code></pre>
 
 <pre>
 +----------------------------------------------------------------------------+
-|                            BOOK REVIEW SYSTEM                              |
+|                        BOOKHUB (BOOK REVIEW SYSTEM)                        |
 +----------------------------------------------------------------------------+
 
                                     |
@@ -300,7 +300,7 @@ PORT=5001</code></pre>
 
 <h3> Project Structure:</h3>
 <pre>
-Book-Review-System/
+BookHub/
 │
 ├── backend/                           # Node.js Backend
 │   ├── server.js                      # Main server file
@@ -376,7 +376,7 @@ Book-Review-System/
 
 <section id="app_demonstration">
   <h2> App Demonstration & Testing</h2>
-  <p>The Book Review System is a web application that can be run locally for demonstration and testing purposes.</p>
+  <p>The BookHub is a web application that can be run locally for demonstration and testing purposes.</p>
 
   <h3> Local Development Setup</h3>
   <p>Follow the setup instructions in the Getting Started section to run the application locally.</p>
@@ -406,7 +406,7 @@ Book-Review-System/
 
 <section id="conclusion">
   <h2>Conclusion</h2>
-  <p>The Book Review System represents a modern approach to book discovery and community engagement. By combining robust backend architecture with an intuitive React frontend, it provides users with a comprehensive platform for exploring literature, sharing opinions, and connecting with fellow readers. The application's focus on user experience, security, and scalability makes it a solid foundation for future enhancements and a valuable tool for the reading community.</p>
+  <p>The BookHub is a management system which represents a modern approach to book discovery and community engagement. By combining robust backend architecture with an intuitive React frontend, it provides users with a comprehensive platform for exploring literature, sharing opinions, and connecting with fellow readers. The application's focus on user experience, security, and scalability makes it a solid foundation for future enhancements and a valuable tool for the reading community.</p>
 </section>
 
 <section id = "team">
@@ -417,6 +417,25 @@ Book-Review-System/
     <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github" alt="GitHub" style="max-width: 100%;">
   </a>
   <a href="https://www.linkedin.com/in/suhas-varna2003/" style="text-decoration: none;" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn" />
+  </a>
+</p>
+<h3> Vikas D H </h3>
+<p align="left">
+  <a href="" style="text-decoration: none;" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github" alt="GitHub" />
+  </a>
+  <a href="" style="text-decoration: none;" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn" />
+  </a>
+</p>
+
+<h3> Sanjay J </h3>
+<p align="left">
+  <a href="" style="text-decoration: none;" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github" alt="GitHub" />
+  </a>
+  <a href="" style="text-decoration: none;" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn" />
   </a>
 </p>
